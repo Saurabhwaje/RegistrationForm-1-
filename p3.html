@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: bisque;
+      }
+      #parent {
+        display: inline-block;
+        margin-left: 95px;
+      }
+      #image {
+        height: 550px;
+        width: 300px;
+        background-image: url(/PROJECTS/proj3/image/brooke-lark-08bOYnH_r_E-unsplash.jpg);
+        background-size: cover;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        display: inline-block;
+        margin-left: 120px;
+        margin-top: 60px;
+      }
+      #form {
+        height: 550px;
+        width: 700px;
+        background-color: rgb(241 235 240);
+        display: inline-block;
+        padding: 0%;
+        margin: 0%;
+        margin-top: 60px;
+        position: fixed;
+      }
+      h1 {
+        margin-left: 50px;
+        margin-top: 50px;
+      }
+      input {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove rgb(184, 179, 179);
+        background-color: rgb(241 235 240);
+        width: 250px;
+        margin-top: 30px;
+      }
+
+      select {
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove rgb(184, 179, 179);
+        background-color: rgb(241 235 240);
+        width: 250px;
+        margin-top: 35px;
+      }
+      table {
+        margin-left: 47px;
+      }
+      #button {
+        width: 95px;
+        height: 30px;
+        border-radius: 5px;
+        border-bottom-style: none;
+        background: #fb641b;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    border: none;
+    color: #fff;
+      }
+      #name{
+        width: 505px;
+      }
+      button{
+        border: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="parent">
+      <div id="image"></div>
+      <div id="form">
+        <h1>REGISTRATION INFO</h1>
+        <table>
+          <form action="">
+            <tr>
+              <td colspan="2">
+                <input id="name" type="text" name="" placeholder="Name"/>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="date" value="birthday"/>
+              </td>
+              <td>
+                <select name="" id="">
+                  <option value="" disabled selected>Gender</option>
+                  <option value="">Male</option>
+                  <option value="">Female</option>
+                  <option value="">Other</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr> 
+              <td colspan="2">
+                <input type="text" name="" id="name" placeholder="Class" />
+              </td>
+            </tr>
+            <tr>
+              <td><input type="text" placeholder="Registration Code" /></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <button><input id="button" type="submit" value="Login" /></button>
+              </td>
+            </tr>
+          </form>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
